@@ -1,0 +1,12 @@
+[
+    {
+        "lab": 2,
+        "system": 1,
+        "column": 3,
+        "rack": 5,
+        "row": 4,
+        "tank": 2,
+        "strain": 3,
+        "dob": "2023-11-01"
+    }
+]
