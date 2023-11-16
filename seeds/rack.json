@@ -1,32 +1,32 @@
 [
     {
-        "rackName": "Rack 1A"
+        "rack_name": "Rack 1A"
     },
     {
-        "rackName": "Rack 1B"
+        "rack_name": "Rack 1B"
     },
     {
-        "rackName": "Rack 2A"
+        "rack_name": "Rack 2A"
     },
     {
-        "rackName": "Rack 2B"
+        "rack_name": "Rack 2B"
     },
     {
-        "rackName": "Rack 3A"
+        "rack_name": "Rack 3A"
     },
     {
-        "rackName": "Rack 3B"
+        "rack_name": "Rack 3B"
     },
     {
-        "rackName": "Rack 4A"
+        "rack_name": "Rack 4A"
     },
     {
-        "rackName": "Rack 4B"
+        "rack_name": "Rack 4B"
     },
     {
-        "rackName": "Rack 5A"
+        "rack_name": "Rack 5A"
     },
     {
-        "rackName": "Rack 5B"
+        "rack_name": "Rack 5B"
     }
 ]

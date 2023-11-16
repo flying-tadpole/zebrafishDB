@@ -1,10 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const System = require('./location/system');
-const Column = require('./location/column');
-const Rack = require('./location/rack');
+const System = require('./system');
+const Column = require('./column');
+const Rack = require('./rack');
 const Tank = require('./tank');
 const Strain = require('./strain');
+const Lab = require('./lab')
 
 class Fish extends Model {}
 
@@ -20,7 +21,7 @@ Fish.init(
             type: DataTypes.TEXT,
             allowNull:false
         },
-        lab: {
+        lab_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
@@ -28,7 +29,7 @@ Fish.init(
                 key: 'id'
             }
         },
-        system: {
+        system_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
@@ -36,7 +37,7 @@ Fish.init(
                 key: 'id'
             }
         },
-        column: {
+        column_id: {
             type: DataTypes.INTEGER,
             allowNull: true,
             references: {
@@ -44,7 +45,7 @@ Fish.init(
                 key: 'id'
             }
         },
-        rack: {
+        rack_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             references: {
@@ -56,15 +57,15 @@ Fish.init(
             type: DataTypes.INTEGER,
             allowNull: false
         },
-        tank: {
-            type: DataTypes.TEXT,
+        tank_id: {
+            type: DataTypes.INTEGER,
             allowNull: false,
             references: {
                 model: Tank,
                 key: 'id'
             }
         },
-        strain: {
+        strain_id: {
             type: DataTypes.INTEGER,
             allowNull:false,
             references: {

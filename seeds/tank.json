@@ -1,46 +1,46 @@
 [
     {
-        "tankName": "SQSB-701-XS",
-        "tankStock": 30
+        "tank_name": "SQSB-701-XS",
+        "tank_stock": 30
     },
     {
-        "tankName": "SQSB-701-S",
-        "tankStock": 9
+        "tank_name": "SQSB-701-S",
+        "tank_stock": 9
     },
     {
-        "tankName": "SQSB-701-M",
-        "tankStock": 14
+        "tank_name": "SQSB-701-M",
+        "tank_stock": 14
     },
     {
-        "tankName": "SQSB-701-L",
-        "tankStock": 30
+        "tank_name": "SQSB-701-L",
+        "tank_stock": 30
     },
     {
-        "tankName": "SQSB-702-XS",
-        "tankStock": 30
+        "tank_name": "SQSB-702-XS",
+        "tank_stock": 30
     },
     {
-        "tankName": "SQSB-702-S",
-        "tankStock": 9
+        "tank_name": "SQSB-702-S",
+        "tank_stock": 9
     },
     {
-        "tankName": "SQSB-702-M",
-        "tankStock": 14
+        "tank_name": "SQSB-702-M",
+        "tank_stock": 14
     },
     {
-        "tankName": "SQSB-702-L",
-        "tankStock": 30
+        "tank_name": "SQSB-702-L",
+        "tank_stock": 30
     },
     {
-        "tankName": "SQSB-705-S",
-        "tankStock": 9
+        "tank_name": "SQSB-705-S",
+        "tank_stock": 9
     },
     {
-        "tankName": "SQSB-705-M",
-        "tankStock": 14
+        "tank_name": "SQSB-705-M",
+        "tank_stock": 14
     },
     {
-        "tankName": "SQSB-705-L",
-        "tankStock": 30
+        "tank_name": "SQSB-705-L",
+        "tank_stock": 30
     }
 ]

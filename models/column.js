@@ -11,7 +11,7 @@ Column.init(
             primaryKey: true,
             autoIncrement: true
         },
-        columnName: {
+        column_name: {
             type: DataTypes.TEXT,
             allowNull: false
         }

@@ -1,11 +1,11 @@
 [
     {
-        "systemName": "Main"
+        "system_name": "Main"
     },
     {
-        "systemName": "Nursery"
+        "system_name": "Nursery"
     },
     {
-        "systemName": "Quarantine"
+        "system_name": "Quarantine"
     }
 ]

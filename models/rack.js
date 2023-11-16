@@ -11,7 +11,7 @@ Rack.init(
             primaryKey: true,
             autoIncrement: true
         },
-        rackName: {
+        rack_name: {
             type: DataTypes.TEXT,
             allowNull: false
         }

@@ -1,13 +1,13 @@
 [
     {
-        "lab": 2,
+        "lab_id": 2,
         "cagecard": "CC0123456",
-        "system": 1,
-        "column": 3,
-        "rack": 5,
+        "system_id": 1,
+        "column_id": 3,
+        "rack_id": 5,
         "row": 4,
-        "tank": 2,
-        "strain": 3,
+        "tank_id": 2,
+        "strain_id": 3,
         "dob": "2023-11-01"
     }
 ]

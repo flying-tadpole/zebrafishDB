@@ -11,7 +11,7 @@ Strain.init(
             primaryKey: true,
             autoIncrement: true
         },
-        lineNumber: {
+        line_number: {
             type: DataTypes.INTEGER,
             allowNull: false
         },

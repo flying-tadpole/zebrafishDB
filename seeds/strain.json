@@ -1,14 +1,14 @@
 [
     {
-        "lineNumber": 5,
+        "line_number": 5,
         "line": "test strain"
     },
     {
-        "lineNumber": 8,
+        "line_number": 8,
         "line": "straight strain"
     },
     {
-        "lineNumber": 50,
+        "line_number": 50,
         "line": "wavy strain"
     }
 ]

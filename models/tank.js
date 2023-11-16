@@ -11,11 +11,11 @@ Tank.init(
             primaryKey: true,
             autoIncrement: true
         },
-        tankName: {
+        tank_name: {
             type: DataTypes.TEXT,
             allowNull: false
         },
-        tankStock: {
+        tank_stock: {
             type: DataTypes.INTEGER,
             allowNull: false
         }

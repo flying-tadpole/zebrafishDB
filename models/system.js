@@ -11,7 +11,7 @@ System.init(
             primaryKey: true,
             autoIncrement: true
         },
-        systemName: {
+        system_name: {
             type: DataTypes.TEXT,
             allowNull: false
         }
