@@ -16,6 +16,10 @@ Fish.init(
             primaryKey: true,
             autoIncrement: true
         },
+        cagecard: {
+            type: DataTypes.TEXT,
+            allowNull:false
+        },
         lab: {
             type: DataTypes.INTEGER,
             allowNull: false,

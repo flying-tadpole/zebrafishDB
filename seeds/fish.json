@@ -1,6 +1,7 @@
 [
     {
         "lab": 2,
+        "cagecard": "CC0123456",
         "system": 1,
         "column": 3,
         "rack": 5,
