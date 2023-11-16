@@ -12,13 +12,6 @@ const fishData = require("./fish")
 const seedDatabase = async () => {
     await sequelize.sync({ force: true });
 
-    try {
-        await sequelize.authenticate();
-        console.log('Connection has been established successfully.');
-      } catch (error) {
-        console.error('Unable to connect to the database:', error);
-    }
-
     const system = await System.bulkCreate(systemData);
     const column = await Column.bulkCreate(columnData);
     const rack = await Rack.bulkCreate(rackData);
