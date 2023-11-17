@@ -1,7 +1,8 @@
 const router = require('express').Router()
 
 router.get('/health', async (req, res) => {
-    res.render('health', health)
+    console.log("hit health route")
+    res.render("testing health route!")
 })
 
 module.exports = router

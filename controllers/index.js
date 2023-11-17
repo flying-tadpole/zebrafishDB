@@ -1,9 +1,11 @@
 const router = require("express").Router();
 
-const main = require('./main')
+const lookupRoutes = require('./cc_lookup.js')
+const main = require('./main.js')
 const apiRoutes = require('./api/')
 
 router.use("/", main)
-router.use("/api/", apiRoutes)
+router.use("/lookup", lookupRoutes)
+router.use("/api", apiRoutes)
 
-module.exports = router;
+module.exports = router; 
