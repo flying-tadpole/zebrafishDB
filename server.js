@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(require("./controllers/index"))
+app.use(require("./controllers/api/index"))
+app.use(require("./controllers/api/health"))
 
 // Starts the server to begin listening
 app.listen(PORT, () => {
