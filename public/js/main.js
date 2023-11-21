@@ -3,14 +3,17 @@ const lookupLink = document.getElementById("lookup")
 const homeLink = document.getElementById("home")
 
 const pageNav = function (event) {
-    const selected = { id: event.target.id }
-    if (id === "home"){
+    const selection = { id: event.target.id }
+    console.log("target id: ", selection)
+    console.log("target id: ", selection.id)
+    const selected = selection.id
+    if (selected === "home"){
         console.log("hit home")
         location.replace("/")
-    } else if (id === "lookup"){
+    } else if (selected === "lookup"){
         console.log("hit lookup")
         location.replace("/lookup")
-    } else if (id === "health"){
+    } else if (selected === "health"){
         console.log("hit health")
         location.replace("/health")
     } else {
